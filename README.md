@@ -15,7 +15,7 @@ A small Flask-based food delivery demo created for an Agile/DevOps assignment. I
 ```bash
 python -m venv .venv
 # Windows:
-.venv\\\\Scripts\\\\activate
+.venv\\\\\\\\Scripts\\\\\\\\activate
 # macOS/Linux:
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -39,6 +39,8 @@ pytest -v
 
 Suggested stories: Customer Registration, Customer Login, Search Food, Filter Food by Category, Add Food to Cart, Place Order, View Order Status.
 Use a feature branch and pull request for each change, and confirm the CI workflow passes before merging.
+
+Feature update: documented the food search functionality.
 
 Feature update: documented the food search functionality.
 
